@@ -1,5 +1,5 @@
 import EventEmitter from 'events'
-import { mcolor } from './color.js'
+import { mcolor } from '../../ReutersCharter/scripts/color.js'
 let d3formatter = require("d3-format");
 let d3 = Object.assign(d3formatter, require("d3-fetch"), require("d3-time-format"), require("d3-scale"), require("d3-axis"), require("d3-color"), require("d3-path"), require("d3-selection"), require("d3-selection-multi"), require("d3-shape"), require("d3-transition"), require("d3-time"), require("d3-svg-annotation"), require("d3-geo"));
 
